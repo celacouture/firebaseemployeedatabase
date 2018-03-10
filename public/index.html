@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <!-- style.css -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
 </head>
 
 <body>
@@ -22,9 +23,25 @@
 
   <form class="text-center forms">
     <label for="name">Employee name:</label>
-    <input type="text" name="name>
+    <input type="text" name="name">
   </form> 
   
+  <!-- firebase -->
+  <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase-database.js"></script>
+
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCtL7yfKJlWun24SdBMViazuF8tBBLpbdo",
+      authDomain: "employee-project-3cd2e.firebaseapp.com",
+      databaseURL: "https://employee-project-3cd2e.firebaseio.com",
+      projectId: "employee-project-3cd2e",
+      storageBucket: "",
+      messagingSenderId: "374153372846"
+    };
+    firebase.initializeApp(config);
+  </script>
   <!-- jquery -->
   <script src="https://code.jquery.com/jquery.js"></script>
   <!-- bootstrap js -->

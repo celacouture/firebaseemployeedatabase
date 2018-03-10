@@ -41,3 +41,37 @@
 [info] +  hosting: Local server: http://localhost:5000
 
 [info] Shutting down...
+[debug] [2018-03-10T17:03:30.493Z] ----------------------------------------------------------------------
+[debug] [2018-03-10T17:03:30.493Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sam\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-10T17:03:30.493Z] CLI Version:   3.17.5
+[debug] [2018-03-10T17:03:30.493Z] Platform:      win32
+[debug] [2018-03-10T17:03:30.493Z] Node Version:  v8.9.3
+[debug] [2018-03-10T17:03:30.493Z] Time:          Sat Mar 10 2018 11:03:30 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:03:30.493Z] ----------------------------------------------------------------------
+[debug] 
+[warn] !  Deprecation Warning: Firebase Hosting configuration should be moved under "hosting" key.
+[debug] [2018-03-10T17:03:30.539Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-10T17:03:30.555Z] > authorizing via signed-in user
+[debug] [2018-03-10T17:03:30.555Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/employee-project-3cd2e  
+  
+ Sat Mar 10 2018 11:03:30 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:03:31.093Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T17:03:31.093Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/employee-project-3cd2e/tokens  
+  
+ Sat Mar 10 2018 11:03:31 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:03:31.500Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T17:03:31.500Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/employee-project-3cd2e  
+  
+ Sat Mar 10 2018 11:03:31 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:03:31.687Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Sam\code\inclass\week7\3-10-2018\firebaseemployeedatabase'...
+[info] 
+[debug] [2018-03-10T17:03:31.703Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/374153372846/clients/_:getWebAppConfig  
+  
+ Sat Mar 10 2018 11:03:31 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:03:32.125Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...

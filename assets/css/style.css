@@ -1,0 +1,11 @@
+.jumbotron {
+	background-color: black;
+	color: white;
+	margin: auto;
+	width: 75%;
+	border-radius: 10px;
+}
+
+.forms {
+	margin: auto;
+}

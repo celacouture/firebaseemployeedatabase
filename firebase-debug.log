@@ -109,3 +109,113 @@
 [info] +  hosting: Local server: http://localhost:5000
 
 [info] Shutting down...
+[debug] [2018-03-10T17:49:21.478Z] ----------------------------------------------------------------------
+[debug] [2018-03-10T17:49:21.493Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sam\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-10T17:49:21.493Z] CLI Version:   3.17.5
+[debug] [2018-03-10T17:49:21.493Z] Platform:      win32
+[debug] [2018-03-10T17:49:21.493Z] Node Version:  v8.9.3
+[debug] [2018-03-10T17:49:21.493Z] Time:          Sat Mar 10 2018 11:49:21 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:49:21.493Z] ----------------------------------------------------------------------
+[debug] 
+[warn] !  Deprecation Warning: Firebase Hosting configuration should be moved under "hosting" key.
+[debug] [2018-03-10T17:49:21.540Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-10T17:49:21.540Z] > authorizing via signed-in user
+[debug] [2018-03-10T17:49:21.540Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-10T17:49:21.556Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/zarbszTgRWBNuuXKRMIqu1DsSVXaU8FttQR6Il9D8r8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Mar 10 2018 11:49:21 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:49:21.837Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T17:49:21.900Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/employee-project-3cd2e  
+  
+ Sat Mar 10 2018 11:49:21 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:49:22.337Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T17:49:22.337Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/employee-project-3cd2e/tokens  
+  
+ Sat Mar 10 2018 11:49:22 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:49:22.697Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T17:49:22.697Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/employee-project-3cd2e  
+  
+ Sat Mar 10 2018 11:49:22 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:49:22.962Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Sam\code\inclass\week7\3-10-2018\firebaseemployeedatabase'...
+[info] 
+[debug] [2018-03-10T17:49:22.962Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/374153372846/clients/_:getWebAppConfig  
+  
+ Sat Mar 10 2018 11:49:22 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:49:23.306Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2018-03-10T17:51:25.495Z] ----------------------------------------------------------------------
+[debug] [2018-03-10T17:51:25.495Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sam\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-10T17:51:25.495Z] CLI Version:   3.17.5
+[debug] [2018-03-10T17:51:25.495Z] Platform:      win32
+[debug] [2018-03-10T17:51:25.495Z] Node Version:  v8.9.3
+[debug] [2018-03-10T17:51:25.495Z] Time:          Sat Mar 10 2018 11:51:25 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:51:25.495Z] ----------------------------------------------------------------------
+[debug] 
+[warn] !  Deprecation Warning: Firebase Hosting configuration should be moved under "hosting" key.
+[debug] [2018-03-10T17:51:25.553Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-10T17:51:25.554Z] > authorizing via signed-in user
+[debug] [2018-03-10T17:51:25.560Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/employee-project-3cd2e  
+  
+ Sat Mar 10 2018 11:51:25 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:51:25.979Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T17:51:25.979Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/employee-project-3cd2e/tokens  
+  
+ Sat Mar 10 2018 11:51:25 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:51:26.370Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T17:51:26.370Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/employee-project-3cd2e  
+  
+ Sat Mar 10 2018 11:51:26 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:51:26.605Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Sam\code\inclass\week7\3-10-2018\firebaseemployeedatabase'...
+[info] 
+[debug] [2018-03-10T17:51:26.621Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/374153372846/clients/_:getWebAppConfig  
+  
+ Sat Mar 10 2018 11:51:26 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:51:26.933Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2018-03-10T17:52:16.145Z] ----------------------------------------------------------------------
+[debug] [2018-03-10T17:52:16.145Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sam\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-10T17:52:16.145Z] CLI Version:   3.17.5
+[debug] [2018-03-10T17:52:16.145Z] Platform:      win32
+[debug] [2018-03-10T17:52:16.145Z] Node Version:  v8.9.3
+[debug] [2018-03-10T17:52:16.145Z] Time:          Sat Mar 10 2018 11:52:16 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:52:16.145Z] ----------------------------------------------------------------------
+[debug] 
+[warn] !  Deprecation Warning: Firebase Hosting configuration should be moved under "hosting" key.
+[debug] [2018-03-10T17:52:16.191Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-10T17:52:16.191Z] > authorizing via signed-in user
+[debug] [2018-03-10T17:52:16.207Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/employee-project-3cd2e  
+  
+ Sat Mar 10 2018 11:52:16 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:52:16.645Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T17:52:16.645Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/employee-project-3cd2e/tokens  
+  
+ Sat Mar 10 2018 11:52:16 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:52:16.973Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T17:52:16.988Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/employee-project-3cd2e  
+  
+ Sat Mar 10 2018 11:52:16 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:52:17.192Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Sam\code\inclass\week7\3-10-2018\firebaseemployeedatabase'...
+[info] 
+[debug] [2018-03-10T17:52:17.207Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/374153372846/clients/_:getWebAppConfig  
+  
+ Sat Mar 10 2018 11:52:17 GMT-0600 (Central Standard Time)
+[debug] [2018-03-10T17:52:17.723Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

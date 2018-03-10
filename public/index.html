@@ -21,18 +21,27 @@
     <table class="table">
     <thead>
       <tr>
+        <th scope="col">#</th>
         <th scope="col">Employee Name</th>
         <th scope="col">Role</th>
-        <th scope="col">Start Date</th>
-        <th scope="col">Months Worked</th>
+        <!-- <th scope="col">Start Date</th>
+        <th scope="col">Months Worked</th> -->
         <th scope="col">Monthly Rate</th>
         <th scope="col">Total Billed</th>
       </tr>
     </thead>
-    <tbody>
+    <tbody id="content-table">
       
     </tbody>
   </table>
+
+  <form id="input-form">
+    <input type="text" id="name-input">
+    <input type="text" id="role-input">
+    <input type="text" id="date-input">
+    <input type="text" id="rate-input">
+    <button type="submit">s</button>
+  </form>
   
   <!-- firebase -->
   <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>

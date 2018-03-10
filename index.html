@@ -4,29 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <Title>Employee Data Management</Title>
+
+  <!-- bootstrap css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- style.css -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-  <div class="jumbotron">
-    <h1 class="display-4 text-center">Employee Data Management</h1>
-    <p class="lead text-center">A Comprehensive Directory of Employee Billable Hours</p>
+  <div class="containter">
+    <div class="jumbotron">
+      <h1 class="display-4 text-center">Employee Data Management</h1>
+      <p class="lead text-center">A Comprehensive Directory of Employee Billable Hours</p>
+    </div>
   </div>
 
 
-  <form action="/action_page.php" class="text-center forms">
-  First name:<br>
-  <input type="text" name="firstname" value="Mickey">
-  <br>
-  Last name:<br>
-  <input type="text" name="lastname" value="Mouse">
-  <br><br>
-  <input type="submit" value="Submit">
+  <form class="text-center forms">
+    <label for="name">Employee name:</label>
+    <input type="text" name="name>
   </form> 
-
+  
+  <!-- jquery -->
   <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="assets/javascript/javascript.js"></script>
+  <!-- bootstrap js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- app.js -->
+  <script src="assets/js/app.js"></script>
 </body>
 
 </html>
